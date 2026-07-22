@@ -23,11 +23,11 @@ partner signs, and a fallback "delivered" definition if no partner lands. Genuin
 roughly worst-first:
 
 1. **Identity / scope-framing mismatch (highest-order).** The project's name ("tool-atlas") and the
-   ecosystem it sits in (Elyos good-deed catalog, Digital Public Goods) strongly connote *software/data*
+   ecosystem it sits in (Hee-Lee Oss good-deed catalog, Digital Public Goods) strongly connote *software/data*
    tooling, yet the content is *physical* tools. This already caused a tasking miscommunication. **Risk:**
    discoverability and positioning confusion, duplicated effort, and partner/funder mis-set expectations.
    **Fix:** a one-line positioning statement in the README and dataset metadata ("an atlas of *physical*
-   tools and how to use them safely"); reserve the software-catalog concept as a *separate* Elyos repo
+   tools and how to use them safely"); reserve the software-catalog concept as a *separate* Hee-Lee Oss repo
    (see §7). Decide deliberately rather than by accident.
 
 2. **Scope is potentially infinite and lacks an *inclusion/curation rubric* (only a quality floor).**
@@ -225,21 +225,21 @@ instructions** so donated-lane sessions know the bright lines before authoring.
   grinder" from a provenance-backed, safety-reviewed source. One corpus → site + dataset + API + agent tool.
   Differentiator no prose wiki can replicate.
 - **Structured tool registry / canonical IDs.** The `id` + alias + Wikidata layer can become a small
-  *canonical identifier service* for physical tools (an "OpenAlex for hand tools"), which other Elyos
+  *canonical identifier service* for physical tools (an "OpenAlex for hand tools"), which other Hee-Lee Oss
   repos and external apps reference.
 - **open-data-datasheets (parallel).** The per-dataset "datasheet for the atlas" (§6.6) generalizes into a
-  reusable Elyos pattern — datasheets-for-datasets applied to every Elyos corpus.
+  reusable Hee-Lee Oss pattern — datasheets-for-datasets applied to every Hee-Lee Oss corpus.
 - **citizen-science-pipelines (perpendicular).** Crowd-sourced, provenance-verified tool photos/diagrams and
   field-tested technique feedback could feed the media pipeline (with the same human source-URL gate).
-- **Shared Elyos good-deed-catalog infrastructure.** The schema-validation-in-CI, license allow-list,
+- **Shared Hee-Lee Oss good-deed-catalog infrastructure.** The schema-validation-in-CI, license allow-list,
   provenance block, safety/risk-tier gate, and reviewer-≠-author workflow are **reusable primitives** for
-  *every* Elyos content project — extract them into shared tooling rather than re-implementing per repo.
+  *every* Hee-Lee Oss content project — extract them into shared tooling rather than re-implementing per repo.
 - **Digital Public Goods candidacy.** Submit the CC-BY dataset + open schema + code to the
   [DPG Registry](https://github.com/DPGAlliance/publicgoods-candidates) — it plausibly meets the 9-indicator
   [DPG Standard](https://github.com/DPGAlliance/DPG-Standard) as an open content collection, yielding
   visibility and SDG alignment.
 - **A *separate* software-for-social-good atlas.** The brief's mis-framing points to a real, distinct
-  opportunity: a sibling Elyos repo that *is* a curated, CC-BY, schema'd catalog of open-source tools +
+  opportunity: a sibling Hee-Lee Oss repo that *is* a curated, CC-BY, schema'd catalog of open-source tools +
   open datasets for public-interest work (the niche DPG Registry, Civic Tech Field Guide, and awesome-lists
   only partially fill). Same engine, different corpus — but explicitly *not* this project.
 
@@ -248,7 +248,7 @@ instructions** so donated-lane sessions know the bright lines before authoring.
 ## 8. Open questions
 
 1. **Identity:** Should "tool-atlas" be renamed/repositioned to avoid the software-catalog confusion, and is
-   the sibling software atlas (§7) a real Elyos backlog item?
+   the sibling software atlas (§7) a real Hee-Lee Oss backlog item?
 2. **Inclusion rubric:** what is the demand signal that admits a tool and orders the long tail (tool-library
    checkout data? partner curricula? beneficiary requests)?
 3. **Re-review cadence + linkrot:** concrete intervals and archival mechanism — what numbers, and who runs

@@ -21,7 +21,7 @@ unsafe, and not reusable. tool-atlas produces **original CC-BY content with orig
 openly-licensed diagrams**, stored as **machine-readable JSON/Markdown** so it can power a
 static-site explorer, courses, apps, and search.
 
-Every entry is self-contained, which makes the project an ideal fit for Elyos' donated lane:
+Every entry is self-contained, which makes the project an ideal fit for Hee-Lee Oss' donated lane:
 **one tool = one bounded task** with near-unlimited fan-out. Overall risk is **low**, but entries
 for power tools and anything with injury risk (saws, grinders, electrical work, ladders) are
 **medium** risk and must lead with hazards/PPE and pass a safety reviewer before they ship.
@@ -214,7 +214,7 @@ recording a human source-URL check.
 - **Provenance model:** a machine-readable provenance block per media asset and a `sources[]` list
   per entry; both are validated and published with the dataset so reuse is auditable.
 - **Refusal compliance:** content that would teach defeating safety guards/interlocks, illegal
-  modification, or weapons fabrication is refused and flagged per Elyos guardrails — regardless of
+  modification, or weapons fabrication is refused and flagged per Hee-Lee Oss guardrails — regardless of
   how the request is framed.
 
 ## Quality, review & risk gates
@@ -251,7 +251,7 @@ These apply to **all authoring tasks** in TASKS.md.
 
 **Definition of Shipped (project).** Per the proposal: a published, browsable atlas with a
 growing, peer-reviewed set of entries, **adopted by at least one education/makerspace partner**,
-with downloadable structured data under CC-BY. Per Elyos' "delivered, not merged" bar, an entry is
+with downloadable structured data under CC-BY. Per Hee-Lee Oss' "delivered, not merged" bar, an entry is
 *delivered* only when: acceptance criteria met + schema-valid + CI green + editorial (and safety,
 if medium) review passed + published on the live atlas + reachable by the intended beneficiaries.
 
@@ -335,7 +335,7 @@ backlog of sized-but-unscheduled work, and a complete example Task JSON for the 
 
 ## Dependencies & integrations
 
-- **Elyos pieces:** Task JSON schema (`packages/schema`), CLI workspace-prep + PR flow (donated
+- **Hee-Lee Oss pieces:** Task JSON schema (`packages/schema`), CLI workspace-prep + PR flow (donated
   lane), governance/review process, the registry.
 - **External tooling:** chosen SSG (Astro/Eleventy — TBD), AJV for validation, a diagram toolchain
   for original SVG/PNG artwork.
@@ -366,7 +366,7 @@ backlog of sized-but-unscheduled work, and a complete example Task JSON for the 
 - **Threat surface is small:** a static site + structured data, no user accounts, no server-side
   state, no PII collection.
 - **Secrets:** none required for the donated lane content work; any CI/deploy tokens live in CI
-  secrets only and are never written into entries, logs, receipts, or commits (per Elyos rules).
+  secrets only and are never written into entries, logs, receipts, or commits (per Hee-Lee Oss rules).
 - **PII:** none collected or stored; contributors credited by handle only.
 - **Abuse/misuse prevention:** the primary misuse vector is the content itself being steered toward
   harm (defeating safety devices, illegal modification, weapons). This is mitigated by the refusal
@@ -409,9 +409,9 @@ backlog of sized-but-unscheduled work, and a complete example Task JSON for the 
 
 ## References
 
-- `C:\code\elyos\CLAUDE.md` — Elyos work rules, lanes, quality bar, refusal guardrails.
-- `C:\code\elyos\docs\good-deed-definition.md` — the 5 good-deed criteria + risk tiers.
-- `C:\code\elyos\packages\schema\src\schemas.ts` — Task JSON schema (TASKS.md maps to it).
-- `C:\code\elyos\governance\proposals\tool-atlas.md` — the project proposal.
+- `C:\code\hee-lee-oss\CLAUDE.md` — Hee-Lee Oss work rules, lanes, quality bar, refusal guardrails.
+- `C:\code\hee-lee-oss\docs\good-deed-definition.md` — the 5 good-deed criteria + risk tiers.
+- `C:\code\hee-lee-oss\packages\schema\src\schemas.ts` — Task JSON schema (TASKS.md maps to it).
+- `C:\code\hee-lee-oss\governance\proposals\tool-atlas.md` — the project proposal.
 - Creative Commons Attribution 4.0 (CC-BY-4.0) — content license.
 - MIT License — code license.

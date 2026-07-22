@@ -10,7 +10,7 @@ it can power apps, courses, and search.
 
 **Definition of shipped:** A published atlas with peer-reviewed entries adopted by an education/makerspace partner; structured data under CC-BY.
 
-This is an **Elyos** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/elyos
+This is an **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/hee-lee-oss
 
 ## Planning
 - [PROPOSAL.md](./PROPOSAL.md) — why this qualifies as a good deed (Good Deed Definition)
@@ -20,14 +20,14 @@ This is an **Elyos** good-deed project. Contributors pull a task, do it with the
 
 ## Contribute
 ```bash
-elyos browse
-elyos pull --task-file tasks/tool-atlas-schema-001.json --repo Elyos-Projects/tool-atlas
+hee-lee-oss browse
+hee-lee-oss pull --task-file tasks/tool-atlas-schema-001.json --repo Hee-Lee-Oss-Projects/tool-atlas
 # do the work with your own agent, then:
-elyos submit tool-atlas-schema-001 --repo Elyos-Projects/tool-atlas
+hee-lee-oss submit tool-atlas-schema-001 --repo Hee-Lee-Oss-Projects/tool-atlas
 ```
 
 ## Licensing & review
 - **Licensing:** Content + data: CC-BY-4.0. Tooling: MIT.
 - **Review:** risk tier **low-medium** — deeds are *delivered, not merged*; a domain reviewer must sign off before merge.
 
-> Status: this project is in **planning** and not yet ratified through Elyos governance; no adopting partner/requestor is secured yet (`verifiedNeed: false` on delivery-dependent tasks).
+> Status: this project is in **planning** and not yet ratified through Hee-Lee Oss governance; no adopting partner/requestor is secured yet (`verifiedNeed: false` on delivery-dependent tasks).

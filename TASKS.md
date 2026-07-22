@@ -2,7 +2,7 @@
 
 > Status: Draft · Version: 0.2.0 · Last updated: 2026-06-28 · Owner: TBD (maintainer — TO BE SECURED; must be named before M0 exit, target 2026-07-12) · Lane: donated
 
-## How these tasks map to Elyos
+## How these tasks map to Hee-Lee Oss
 
 Each row below becomes one **Task JSON** validated against
 `packages/schema/src/schemas.ts`. Field mapping:
@@ -262,9 +262,9 @@ running.
     "pnpm build && pnpm test && pnpm lint pass."
   ],
   "resources": [
-    "C:\\code\\elyos\\governance\\proposals\\tool-atlas.md",
-    "C:\\code\\elyos\\packages\\schema\\src\\schemas.ts",
-    "C:\\code\\elyos\\planning\\projects\\tool-atlas\\PLAN.md"
+    "C:\\code\\hee-lee-oss\\governance\\proposals\\tool-atlas.md",
+    "C:\\code\\hee-lee-oss\\packages\\schema\\src\\schemas.ts",
+    "C:\\code\\hee-lee-oss\\planning\\projects\\tool-atlas\\PLAN.md"
   ],
   "output": "A merged PR adding the atlas entry JSON Schema, AJV-based validation script, and CI wiring, with the schema documented in the repo.",
   "requestor": "",
