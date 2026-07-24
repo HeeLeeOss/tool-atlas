@@ -10,7 +10,7 @@ it can power apps, courses, and search.
 
 **Definition of shipped:** A published atlas with peer-reviewed entries adopted by an education/makerspace partner; structured data under CC-BY.
 
-This is an **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Platform: https://github.com/jdev1977/hee-lee-oss
+This is a **Hee-Lee Oss** good-deed project. Contributors pull a task, do it with their own coding agent, and open a PR. Get started: https://github.com/Hee-Lee-Oss-Projects/hee-lee-oss-downloads
 
 ## Planning
 - [PROPOSAL.md](./PROPOSAL.md) — why this qualifies as a good deed (Good Deed Definition)
